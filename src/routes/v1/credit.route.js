@@ -2,7 +2,7 @@ const express = require('express')
 const auth = require('../../middlewares/auth')
 const validate = require('../../middlewares/validate')
 const creditValidation = require('../../validations/credit.validation')
-const creditController = require('../../controllers/credits.controller')
+const creditController = require('../../controllers/credit.controller')
 
 const router = express.Router()
 
